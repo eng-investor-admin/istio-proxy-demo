@@ -15,6 +15,12 @@ Deploy demo-app(nginx) to respond with request info.
 kubectl deploy -f ./demo-app.yml
 ```
 
+If you want to deploy TPROXY demo-app, use `demo-app-TPROXY.yml`
+
+```bash
+kubectl deploy -f ./demo-app-TPROXY.yml
+```
+
 Deploy a client pod to send a request to demo-app
 
 ```bash
