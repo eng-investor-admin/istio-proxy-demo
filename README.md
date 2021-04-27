@@ -35,3 +35,6 @@ Http_host: demo-app
 user_agent: curl/7.75.0
 Remote IP: 127.0.0.1
 ```
+
+- Remote IP is the source IP of the request
+- Service is the destination IP of the request
